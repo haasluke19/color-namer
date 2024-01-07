@@ -16,7 +16,7 @@ export default function Home() {
   };
 
   return (
-    <div className="w-full h-screen bg-gray-800 flex flex-col items-center px-10 pb-10">
+    <div className="w-full h-screen bg-gray-800 flex flex-col items-center px-2 pb-10">
       <h1 className="mb-6 mt-8 text-2xl text-white">Color Namer</h1>
 
       <div className="bg-gray-100 w-full max-w-sm h-screen flex flex-col items-center rounded-md px-2 py-8">
