@@ -51,7 +51,7 @@ export default function Home() {
         
         </div>
 
-        <div style={{ backgroundColor: selectedColor }} className="h-[60%] w-full rounded-md"></div>
+        <div style={{ backgroundColor: selectedColor }} className="h-40 w-40 rounded-md"></div>
       </div>
     </div>
   );
