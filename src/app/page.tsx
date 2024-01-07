@@ -19,7 +19,8 @@ export default function Home() {
     <div className="w-full h-screen bg-gray-800 flex flex-col items-center px-10 pb-10">
       <h1 className="mb-6 mt-8 text-2xl text-white">Color Namer</h1>
 
-      <div className="bg-gray-100 w-full max-w-3xl h-screen rounded-md px-8 py-8">
+      <div className="bg-gray-100 w-full max-w-sm h-screen flex flex-col items-center rounded-md px-2 py-8">
+        <div>
         <div className="flex text-xl flex-col mb-2">
           <label>Choose a color:</label>
           <div className="flex gap-2">
@@ -52,6 +53,8 @@ export default function Home() {
         </div>
 
         <div style={{ backgroundColor: selectedColor }} className="h-40 w-40 rounded-md"></div>
+        </div>
+        
       </div>
     </div>
   );
