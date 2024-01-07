@@ -51,7 +51,7 @@ export default function Home() {
         
         </div>
 
-        <input onChange={handleColorChange} value={selectedColor} type="color" className="h-[60%] w-full"></input>
+        <div style={{ backgroundColor: selectedColor }} className="h-[60%] w-full rounded-md"></div>
       </div>
     </div>
   );
